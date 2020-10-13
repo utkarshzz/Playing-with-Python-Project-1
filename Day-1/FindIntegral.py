@@ -14,21 +14,22 @@ pip install sympy
 
 from sympy import *
 
+
 def main():
     x = symbols('x')
-    
+
     form1 = x * log(x)
-    form2 = x**2
-    form3 = tan( sin(x) )
-    
-    intr1 = integrate(form1,x)
-    intr2 = integrate(form2,x)
-    intr3 = integrate(form3,x)
-    
-    print("intrgration of ",form1,"is :: ",intr1)
-    print("intrgration of ",form2,"is :: ",intr2)
-    print("intrgration of ",form3,"is :: ",intr3)
-    
+    form2 = x ** 2
+    form3 = tan(sin(x))
+
+    intr1 = integrate(form1, x)
+    intr2 = integrate(form2, x)
+    intr3 = integrate(form3, x)
+
+    print("intrgration of ", form1, "is :: ", intr1)
+    print("intrgration of ", form2, "is :: ", intr2)
+    print("intrgration of ", form3, "is :: ", intr3)
+
+
 if __name__ == "__main__":
     main()
-    
