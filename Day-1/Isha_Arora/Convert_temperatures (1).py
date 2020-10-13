@@ -4,7 +4,7 @@
 # In[ ]:
 
 
-def main():
+def main() :
     temp = input ( " enter temperature : " )
     length = int ( len ( temp ) )
     postfix = temp [ length - 1 ]
@@ -14,7 +14,7 @@ def main():
     elif postfix == ' f ' or postfix == ' F ' :
         f = int ( temp [ 0 : length - 1 ] )
         print( ( f - 32 ) * ( 5 / 9 ) , " C " )
-    else:
+    else :
         print( " invalid input , enter temperature in either celcius or fahrenhiet " )
 if __name__ == "__main__" :
     main()
