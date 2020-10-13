@@ -12,25 +12,24 @@ install the following packages:-
 pip install sympy
 """
 
-from sympy import *
+import sympy as sp
 
 
 def main():
-    x = symbols('x')
+    x = sp.symbols('x')
 
-    form1 = x * log(x)
+    form1 = x * sp.log(x)
     form2 = x ** 2
-    form3 = tan(sin(x))
+    form3 = sp.tan(sp.sin(x))
 
-    intr1 = integrate(form1, x)
-    intr2 = integrate(form2, x)
-    intr3 = integrate(form3, x)
+    intr1 = sp.integrate(form1, x)
+    intr2 = sp.integrate(form2, x)
+    intr3 = sp.integrate(form3, x)
 
-    print("intrgration of ", form1, "is :: ", intr1)
-    print("intrgration of ", form2, "is :: ", intr2)
-    print("intrgration of ", form3, "is :: ", intr3)
+    print("integration of ", form1, "is :: ", intr1)
+    print("integration of ", form2, "is :: ", intr2)
+    print("integration of ", form3, "is :: ", intr3)
 
 
 if __name__ == "__main__":
     main()
-
