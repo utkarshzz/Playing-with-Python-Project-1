@@ -1,5 +1,5 @@
 """
-Python Code by using pyttsx3 that converts Text to speech 
+Python Code by using pyttsx3 that converts Text to speech
 using pyttsx3
 Created on Tue Oct 13 10:25:47 2020
 @author: Gyan Krishna
@@ -43,4 +43,3 @@ engine.runAndWait()
 # aud = gTTS(text = SampleText,lang = 'en',slow = False)
 # aud.save("hello.mp3")
 # playsound("hello.mp3")
-

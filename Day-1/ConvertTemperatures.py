@@ -10,18 +10,18 @@ and change itCreated on Tue Oct 13 09:45:41 2020
 
 def main():
     temp = input("enter the temperature")
-    l = int(len(temp))
-    postfix = temp[l - 1]
+    length = int(len(temp))
+    postfix = temp[length - 1]
 
     if postfix == 'C' or postfix == 'c':
 
-        celcius = int(temp[0:l - 1])
+        celcius = int(temp[0:length - 1])
         farenheit = 9 / 5 * celcius + 32
 
         print("Temp in farenheit is :: ", farenheit)
     elif postfix == 'F' or postfix == 'f':
 
-        farenheit = int(temp[0:l - 1])
+        farenheit = int(temp[0:length - 1])
         celcius = 5 / 9 * (farenheit - 32)
 
         print("Temp in Celcius is :: ", celcius)
