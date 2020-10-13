@@ -14,6 +14,8 @@ def main() :
     print(i1)
     print(i2)
     print(i3)
+    
+    
 if __name__ == "__main__" :
     main()
 
