@@ -6,6 +6,7 @@
 
 import sympy as sp
 
+
 def main() :
     x = sp.symbols('x')
     i1 = sp.integrate(sp.log(x) * x, x)
