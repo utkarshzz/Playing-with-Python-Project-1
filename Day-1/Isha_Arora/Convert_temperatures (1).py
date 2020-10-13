@@ -5,9 +5,9 @@
 
 
 def main():
-    temp = input("enter temperature:")
-    length = int(len(temp))
-    postfix = temp[length-1]
+    temp = input ( " enter temperature : " )
+    length = int ( len ( temp ) )
+    postfix = temp [ length - 1 ]
     if postfix == 'c' or postfix == 'C' :
         c = int ( temp [ 0 : length - 1 ] )
         print ( c * ( 9 / 5 ) + 32 , " F " )
