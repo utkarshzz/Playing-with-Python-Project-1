@@ -16,8 +16,8 @@ def main() :
         print((f - 32) * (5 / 9), "C")
     else :
         print("invalid input, enter temperature in either celcius or fahrenhiet")
-        
-        
+
+
 if __name__ == "__main__" :
     main()
     
