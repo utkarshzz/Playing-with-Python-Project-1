@@ -17,7 +17,7 @@ engine = pyttsx3.init()
 engine.setProperty('rate', 150)
 
 # speaking volume - volume b/w 0 and 1
-engine.setProperty('volume', 0.7)
+engine.setProperty('volume',1)
 
 # voice selection:- 0 - male, 1 - female
 voices = engine.getProperty('voices')
